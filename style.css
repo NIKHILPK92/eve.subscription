@@ -29,6 +29,13 @@ hr {
   height: 10rem;
 }
 
+.animate-btn {
+  display: inline-block;
+  margin: 0 0.2rem;
+  animation: heartBeat infinite; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
 .btn {
   font-weight: 700;
   border-radius: 200px;
